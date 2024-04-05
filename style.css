@@ -1,0 +1,167 @@
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background: url('photo/Fon.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.left-block {
+    float: left;
+    text-align: center;
+    width: 11%;
+    padding: 20px;
+    background: linear-gradient(to bottom, rgba(52, 152, 219, 0.6), rgba(142, 68, 173, 0.6));
+    position: fixed;
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.left-block img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.left-block a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: yellow;
+    background: linear-gradient(to right, #ff8c00, #000);
+    border-radius: 10px;
+    padding: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.left-block a:hover {
+    background: linear-gradient(to right, #800080, #4B0082);
+	color: #87CEEB;
+}
+
+.main-block {
+    margin-left: 13%;
+    padding: 5px;
+	text-align: center;
+}
+
+.main-block img {
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    background: linear-gradient(to right, #FFA500, #FFFF00);
+    text-align: center;
+    color: transparent;
+    background-clip: text;
+}
+
+h2 {
+	background: linear-gradient(to right, white, #3498db);
+    text-align: center;
+    color: transparent;
+    background-clip: text;
+}
+
+h3 {
+	background: linear-gradient(to right, white, #8e44ad);
+    text-align: center;
+    color: transparent;
+    background-clip: text;
+}
+
+hr {
+  border: none;
+  height: 4px;
+  width: 97%;
+  border-radius: 10px;
+  margin: 20px auto;
+  display: flex;
+  background: linear-gradient(to right, #000000, #000000, #FFFF00, #00FF00, #0000FF, #FF00FF, #000000, #000000);
+  background-size: 600% 100%;
+  animation: gradientAnimation 10s linear infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+p {
+    background: linear-gradient(to right, white, #8e44ad);
+    text-align: justify;
+    color: transparent;
+    background-clip: text;
+    padding: 2%;
+}
+
+ul {
+    list-style-type: square;
+	background: linear-gradient(to right, white, #8e44ad);
+    text-align: justify;
+    color: transparent;
+    background-clip: text;
+}
+
+button {
+    padding: 10px;
+	width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+	border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin: 10px;
+    font-weight: bold;
+	background: linear-gradient(to right, white, #8e44ad);
+    color: transparent;
+	background-clip: text;
+}
+
+#grade {
+    margin: 10px;
+    font-weight: bold;
+	background: linear-gradient(to right, white, #8e44ad);
+    color: transparent;
+	background-clip: text;
+}
+
+#quiz {
+    list-style-type: none;
+    padding: 0;
+}
+
+#quiz p {
+    margin-bottom: -10px;
+}
+
+#quiz label {
+    display: block;
+    text-align: left;
+	color: orange;
+	padding: 1.5%;
+	margin-bottom: -20px;
+}
+
+#quiz input {
+    margin-right: 5px;
+}
